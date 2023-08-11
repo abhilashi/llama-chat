@@ -3,7 +3,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
     <div className="mt-12 sm:mt-24 space-y-6 text-gray-400 text-base mx-8 sm:mx-4 sm:text-2xl leading-12">
       <p>
         {" "}
-        Customize SafeGPT&apos;s personality by clicking the{" "}
+        Customize SafeGPT&apos;s by clicking the{" "}
         <button
           className="prompt-button inline-flex items-center "
           onClick={() => setOpen(true)}
@@ -13,7 +13,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
         button.
       </p>
       <p>
-        I can tell you what to check before you go on a{" "}
+        I can tell you what to check before you{" "}
         <button
           className="prompt-button"
           onClick={() =>

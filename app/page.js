@@ -41,7 +41,8 @@ export default function HomePage() {
   //   Llama params
   const [size, setSize] = useState(VERSIONS[2]); // default to 70B
   const [systemPrompt, setSystemPrompt] = useState(
-    "You are an assistant that keeps me safe on internet. You'll tell me what to verify based on who I'm interacting with. And what actions I'm doing with them. You'll give me specific instructions to verify."
+    "You will ask me questions in a socratic manner to keep me safe on the internet. You'll give me specific instructions on what to verify based on who I'm interacting with. And what actions I'm doing with them."
+    // "You are an assistant that keeps me safe on internet. You'll tell me what to verify based on who I'm interacting with. And what actions I'm doing with them. You'll give me specific instructions to verify."
   );
   const [temp, setTemp] = useState(0.75);
   const [topP, setTopP] = useState(0.9);
