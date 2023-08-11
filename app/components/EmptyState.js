@@ -3,7 +3,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
     <div className="mt-12 sm:mt-24 space-y-6 text-gray-400 text-base mx-8 sm:mx-4 sm:text-2xl leading-12">
       <p>
         {" "}
-        Customize Llama&apos;s personality by clicking the{" "}
+        Customize SafeGPT&apos;s personality by clicking the{" "}
         <button
           className="prompt-button inline-flex items-center "
           onClick={() => setOpen(true)}
@@ -13,58 +13,58 @@ export default function EmptyState({ setOpen, setPrompt }) {
         button.
       </p>
       <p>
-        I can{" "}
+        I can tell you what to check before you go on a{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "Explain the self-attention mechanism that Transformers use like I'm five."
+              "I'm investing money in a crypto project. What should I verify?"
             )
           }
         >
-          explain concepts
+          invest
         </button>
-        , write{" "}
+        , buy a concert{" "}
         <button
           className="prompt-button"
           onClick={() =>
-            setPrompt("Write a poem about open source machine learning. ")
+            setPrompt("I'm buying a concert ticket from a stranger. What should I check or verify?")
           }
         >
-          poems
+          ticket
         </button>{" "}
-        and{" "}
+        or{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "Write a python script that trains `bert-large` on the `IMDB` dataset using the Transformers `Trainer` class and Datasets library. I have access to four GPUs, so let's use DDP. Please write the script and then tell me how to launch it on the command line."
+              "I'm lending money to a stranger through a P2P lending app. What should I check or verify?"
             )
           }
         >
-          code
+          lend money
         </button>
         ,{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "Respond to this question only based on the information provided here. Cats like dogs, and dogs like rabbits. Cats like anything that dogs like. I really really dislike rabbits. How do cats feel about rabbits?"
+              "I'm hiring a freelance through an online website. What should I check or verify?"
             )
           }
         >
-          solve logic puzzles
+          recruit a freelancer
         </button>
         , or even{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "please provide 10 fun names for a pet pelican. Please come up with unique emojis to go along with each name. Try not to repeat the same emojis. Make them fun, colorful, and loving names"
+              "I'm marrying someone I met on a dating app. What should I check or verify?"
             )
           }
         >
-          name your pets.
+          marrying someone.
         </button>{" "}
       </p>
       <p>Send me a message.</p>

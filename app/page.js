@@ -41,7 +41,7 @@ export default function HomePage() {
   //   Llama params
   const [size, setSize] = useState(VERSIONS[2]); // default to 70B
   const [systemPrompt, setSystemPrompt] = useState(
-    "You are a helpful assistant."
+    "You are an assistant that keeps me safe on internet. You'll tell me what to verify based on who I'm interacting with. And what actions I'm doing with them. You'll give me specific instructions to verify."
   );
   const [temp, setTemp] = useState(0.75);
   const [topP, setTopP] = useState(0.9);
@@ -136,7 +136,7 @@ export default function HomePage() {
             className="py-2 font-semibold text-gray-500 hover:underline"
             onClick={() => setOpen(true)}
           >
-            Llama 2 {size.shortened}
+            SafeGPT
           </button>
         </div>
 

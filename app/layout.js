@@ -5,7 +5,7 @@ export const metdata = {
   title: "Llama Chat",
   openGraph: {
     title: "Llama Chat",
-    description: "Chat with Llama 2",
+    description: "Chat with SafeGPT",
   },
 };
 
