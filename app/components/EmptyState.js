@@ -26,7 +26,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
         >
           investing
         </button>{" "}
-        ; critically analyse your ideas {" "}
+        ; critically analyse your{" "}
         <button
           className="prompt-button"
           onClick={() =>
