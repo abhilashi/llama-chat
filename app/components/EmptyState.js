@@ -3,14 +3,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
     <div className="mt-12 sm:mt-24 space-y-6 text-gray-400 text-base mx-8 sm:mx-4 sm:text-2xl leading-12">
       <p>
         {" "}
-        Customize SocraticMind by clicking the{" "}
-        <button
-          className="prompt-button inline-flex items-center "
-          onClick={() => setOpen(true)}
-        >
-          settings{" "}
-        </button>{" "}
-        button.
+        What if AI asked us questions instead of answering them for us. SocraticMind is exactly that.
       </p>
       <p>
         I can teach you a programming concept like{" "}
@@ -33,7 +26,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
         >
           investing
         </button>{" "}
-       ; critically analyse your ideas {" "}
+        ; critically analyse your ideas {" "}
         <button
           className="prompt-button"
           onClick={() =>
@@ -42,7 +35,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
             )
           }
         >
-          ideas 
+          ideas
         </button>
         ; find gaps in your {" "}
         <button
