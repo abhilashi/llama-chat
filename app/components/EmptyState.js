@@ -3,7 +3,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
     <div className="mt-12 sm:mt-24 space-y-6 text-gray-400 text-base mx-8 sm:mx-4 sm:text-2xl leading-12">
       <p>
         {" "}
-        Customize SafeGPT&apos;s by clicking the{" "}
+        Customize SocraticMind by clicking the{" "}
         <button
           className="prompt-button inline-flex items-center "
           onClick={() => setOpen(true)}
@@ -13,58 +13,58 @@ export default function EmptyState({ setOpen, setPrompt }) {
         button.
       </p>
       <p>
-        I can tell you what to check before you{" "}
+        I can teach you a programming concept like{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "I'm investing money in a crypto project. What should I verify?"
+              "Teach me redux (from react native)"
             )
           }
         >
-          invest
+          redux
         </button>
-        , buy a concert{" "}
+        ; make better decisions while {" "}
         <button
           className="prompt-button"
           onClick={() =>
-            setPrompt("I'm buying a concert ticket from a stranger. What should I check or verify?")
+            setPrompt("I'm buying UNI token.")
           }
         >
-          ticket
+          investing
         </button>{" "}
-        or{" "}
+       ; critically analyse your ideas {" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "I'm lending money to a stranger through a P2P lending app. What should I check or verify?"
+              "I'm building a P2P lending app"
             )
           }
         >
-          lend money
+          ideas 
         </button>
-        ,{" "}
+        ; find gaps in your {" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "I'm hiring a freelance through an online website. What should I check or verify?"
+              "I want to run three businesses at once with a single person team."
             )
           }
         >
-          recruit a freelancer
+          thinking
         </button>
-        , or even{" "}
+        ; improve your decision making or even{" "}
         <button
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "I'm marrying someone I met on a dating app. What should I check or verify?"
+              "Recipe for happy relationships are novel experiences."
             )
           }
         >
-          marrying someone.
+          have fun.
         </button>{" "}
       </p>
       <p>Send me a message.</p>

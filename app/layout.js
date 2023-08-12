@@ -2,10 +2,10 @@ import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.css";
 
 export const metdata = {
-  title: "Llama Chat",
+  title: "Socratic Mind",
   openGraph: {
-    title: "Llama Chat",
-    description: "Chat with SafeGPT",
+    title: "Socratic Mind",
+    description: "AI that will ask questions instead of answering",
   },
 };
 

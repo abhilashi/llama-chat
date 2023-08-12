@@ -41,7 +41,8 @@ export default function HomePage() {
   //   Llama params
   const [size, setSize] = useState(VERSIONS[2]); // default to 70B
   const [systemPrompt, setSystemPrompt] = useState(
-    "You will ask me questions in a socratic manner to keep me safe on the internet. You'll give me specific instructions on what to verify based on who I'm interacting with. And what actions I'm doing with them."
+    "You will ask me questions in a socratic manner to help me learn, analyse and understand."
+    // "You will ask me questions in a socratic manner to keep me safe on the internet. You'll give me specific instructions on what to verify based on who I'm interacting with. And what actions I'm doing with them."
     // "You are an assistant that keeps me safe on internet. You'll tell me what to verify based on who I'm interacting with. And what actions I'm doing with them. You'll give me specific instructions to verify."
   );
   const [temp, setTemp] = useState(0.75);
@@ -132,12 +133,11 @@ export default function HomePage() {
       <nav className="grid grid-cols-2 pt-3 pl-6 pr-3 sm:grid-cols-3 sm:pl-0">
         <div className="hidden sm:inline-block"></div>
         <div className="font-semibold text-gray-500 sm:text-center">
-          🦙 <span className="hidden sm:inline-block">Chat with</span>{" "}
           <button
             className="py-2 font-semibold text-gray-500 hover:underline"
             onClick={() => setOpen(true)}
           >
-            SafeGPT
+            Socratic Mind
           </button>
         </div>
 
