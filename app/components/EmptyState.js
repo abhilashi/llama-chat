@@ -55,7 +55,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
         >
           thinking
         </button>
-        ; improve your decision making or even{" "}
+        ; or even{" "}
         <button
           className="prompt-button"
           onClick={() =>
@@ -64,7 +64,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
             )
           }
         >
-          have fun.
+          having fun.
         </button>{" "}
       </p>
       <p>Send me a message.</p>
